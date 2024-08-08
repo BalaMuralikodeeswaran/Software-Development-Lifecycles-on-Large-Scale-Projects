@@ -1,0 +1,107 @@
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    max-width: 1200px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden; /* Ensure children don't overflow */
+}
+
+.left-panel,
+.right-panel {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left-panel {
+    background-color: #F39422;
+    color: #fff;
+}
+
+.right-panel {
+    background-color: #fff;
+}
+
+.input-section label {
+    display: block;
+    margin-bottom: 10px;
+    color: #000; /* Label color for input fields */
+}
+
+.input-section input,
+.input-section select {
+    width: calc(100% - 300px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-section button {
+    width: calc(88% - 210px);
+    padding: 12px;
+    background-color: #0056b3;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.9s ease;
+}
+
+.input-section button:hover {
+    background-color: #004080;
+}
+
+.graph {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    max-height: 250px; /* Adjust the max-height as needed */
+}
+
+
+.results-section {
+    padding: 20px;
+}
+
+.results-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.results-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.results-section p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.results-section {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Background color with transparency */
+    border-top: 2px solid #007bff; /* Add a top border for separation */
+}
+
+.year-box {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.graph-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
