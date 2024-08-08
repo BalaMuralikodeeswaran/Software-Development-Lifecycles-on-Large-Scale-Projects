@@ -31,7 +31,7 @@ This repository contains the project for the course on Software Development Life
 2. **Clone the repository:**
    - Use the following command to clone this repository:
      ```bash
-     git clone https://github.com/yourusername/your-repository-name.git
+     git clone https://github.com/yourusername/your-repository-name.git](https://github.com/BalaMuralikodeeswaran/Software-Development-Lifecycles-on-Large-Scale-Projects
      ```
 
 3. **Copy the project files:**
